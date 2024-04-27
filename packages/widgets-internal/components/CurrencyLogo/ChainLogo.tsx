@@ -14,7 +14,7 @@ export const ChainLogo = memo(
       <Image
         alt={`chain-${chainId}`}
         style={{ maxHeight: `${height}px` }}
-        src={`https://assets.pancakeswap.finance/web/chains/${chainId}.png`}
+        src={`https://assets.betterx.pro/web/chains/${chainId}.png`}
         width={width}
         height={height}
         unoptimized

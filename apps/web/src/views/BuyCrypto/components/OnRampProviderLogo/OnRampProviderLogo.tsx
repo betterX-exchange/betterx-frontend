@@ -49,7 +49,7 @@ export const EvmLogo = ({ mode, currency, size = 24 }: { mode: string; currency:
             width={size}
             height={size}
             primarySrc={getImageUrlFromToken(currency)}
-            secondarySrc={`https://assets.pancakeswap.finance/web/chains/${currency.chainId}.png`}
+            secondarySrc={`https://assets.betterx.pro/web/chains/${currency.chainId}.png`}
           />
         </Box>
       )}
