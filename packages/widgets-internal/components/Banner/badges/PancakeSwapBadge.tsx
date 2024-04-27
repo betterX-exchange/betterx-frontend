@@ -1,6 +1,6 @@
 import { Badge, BadgeLogo, BadgeText } from "./Badge";
 
-const pancakeSwapLogo = "https://assets.betterx.pro/web/banners/pancakeswap-logo.png";
+const pancakeSwapLogo = "https://assets.betterx.pro/web/banners/betterx-logo.png";
 
 interface PancakeSwapBadgeProps {
   whiteText?: boolean;

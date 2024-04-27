@@ -22,7 +22,7 @@ export const Step3 = () => {
         {t('to Win 700,000 $MASA')}
       </Text>
       <Link
-        href="https://pancakeswap.finance/swap?outputCurrency=0x944824290CC12F31ae18Ef51216A223Ba4063092&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapMASA&utm_id=MASATradingCompetition"
+        href="https://betterX.pro/swap?outputCurrency=0x944824290CC12F31ae18Ef51216A223Ba4063092&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapMASA&utm_id=MASATradingCompetition"
         color="primary"
         fontSize={['12px', '12px', '14px']}
         style={{ display: 'flex', alignItems: 'center', gap: 3 }}

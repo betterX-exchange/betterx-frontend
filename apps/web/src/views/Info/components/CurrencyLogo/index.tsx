@@ -31,7 +31,7 @@ export const CurrencyLogo: React.FC<
   const imagePath = chainName === 'BSC' ? '' : `${chainName?.toLowerCase()}/`
   const checkedsummedAddress = safeGetAddress(address)
   const srcFromPCS = checkedsummedAddress
-    ? `https://tokens.pancakeswap.finance/images/${imagePath}${checkedsummedAddress}.png`
+    ? `https://assets.betterx.pro/tokens/images/${imagePath}${checkedsummedAddress}.png`
     : ''
   return (
     <StyledLogo size={size} srcs={src ? [srcFromPCS, src] : [srcFromPCS]} alt="token logo" useFilledIcon {...rest} />

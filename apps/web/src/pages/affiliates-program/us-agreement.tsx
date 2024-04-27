@@ -1,4 +1,4 @@
-import { Text, Link } from '@pancakeswap/uikit'
+import { Link, Text } from '@pancakeswap/uikit'
 import { Container } from 'pages/terms-of-service'
 import AffiliatesProgramLayout from 'views/AffiliatesProgram/components/AffiliatesProgramLayout'
 
@@ -52,44 +52,44 @@ const UsAgreement = () => {
           <Text as="span">(i) Is in the following Pancake Swap token lists</Text>
           <Text as="p">
             BNB Smart Chain:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-extended.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-extended.json
             </Link>
           </Text>
           <Text as="p">
             Arbitrum One:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-arbitrum-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-arbitrum-default.json
             </Link>
           </Text>
           <Text as="p">
             Base:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-base-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-base-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-base-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-base-default.json
             </Link>
           </Text>
           <Text as="p">
             Ethereum:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-eth-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-eth-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-eth-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-eth-default.json
             </Link>
           </Text>
           <Text as="p">
             Linea:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-linea-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-linea-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-linea-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-linea-default.json
             </Link>
           </Text>
           <Text as="p">
             Polygon zkEVM:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-polygon-zkevm-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-polygon-zkevm-default.json
             </Link>
           </Text>
           <Text as="p">
             zkSync Era:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json
+            <Link href="https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-zksync-default.json">
+              https://tokenlists.org/token-list?url=https://assets.betterx.pro/tokens/pancakeswap-zksync-default.json
             </Link>
           </Text>
           <Text as="span">; and</Text>

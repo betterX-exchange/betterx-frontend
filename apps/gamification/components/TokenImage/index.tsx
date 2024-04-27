@@ -31,7 +31,7 @@ export const getImageUrlFromToken = (token: Token) => {
 
   return token?.isNative && token.chainId !== ChainId.BSC
     ? `${ASSET_CDN}/web/native/${token.chainId}.png`
-    : `https://tokens.pancakeswap.finance/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
+    : `https://assets.betterx.pro/tokens/images/${tokenImageChainNameMapping[token.chainId]}${address}.png`
 }
 
 export const TokenPairImage: React.FC<React.PropsWithChildren<TokenPairImageProps>> = ({

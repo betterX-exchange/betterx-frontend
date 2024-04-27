@@ -1,17 +1,17 @@
-import { Currency, Token, ChainId } from '@pancakeswap/aptos-swap-sdk'
+import { ChainId, Currency, Token } from '@pancakeswap/aptos-swap-sdk'
 import { APTOS_COIN } from '@pancakeswap/awgmi'
-import memoize from 'lodash/memoize'
 import { useHttpLocations } from '@pancakeswap/hooks'
 import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { TokenLogo } from '@pancakeswap/uikit'
+import memoize from 'lodash/memoize'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
-import { TokenLogo } from '@pancakeswap/uikit'
 import { aptosLogoClass } from './CurrencyLogo.css'
 
 const getTokenLogoURL = memoize(
   (token?: Token) => {
     if (token && token.chainId === ChainId.MAINNET) {
-      return `https://tokens.pancakeswap.finance/images/aptos/${token.address}.png` // hex encoding
+      return `https://assets.betterx.pro/tokens/images/aptos/${token.address}.png` // hex encoding
     }
     return null
   },
@@ -24,7 +24,7 @@ const StyledLogo = styled(TokenLogo)<{ size: string }>`
   border-radius: 50%;
 `
 
-const APT_SRCS = ['https://tokens.pancakeswap.finance/images/symbol/apt.png']
+const APT_SRCS = ['https://assets.betterx.pro/tokens/images/symbol/apt.png']
 
 export function AptosCoinLogo({ size = '24px', style }: { size?: string; style?: React.CSSProperties }) {
   return (

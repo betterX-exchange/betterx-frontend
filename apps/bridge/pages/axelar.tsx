@@ -1,9 +1,9 @@
-import { useMemo } from 'react'
 import { SquidWidget } from '@0xsquid/widget'
 import { AppConfig } from '@0xsquid/widget/widget/core/types/config'
 import { Box, PancakeTheme } from '@pancakeswap/uikit'
-import { useTheme } from 'styled-components'
 import PageContainer from 'components/Page'
+import { useMemo } from 'react'
+import { useTheme } from 'styled-components'
 
 const lightStyle = {
   neutralContent: '#7a6eaa',
@@ -93,7 +93,7 @@ const Axelar = () => {
           .tw-flex ul li > span:first-child,
           .tw-flex ul li > span:first-child a,
           .tw-rounded-t-box.tw-flex.tw-flex-col span.tw-flex.tw-flex-row.tw-items-center:first-child {
-            color: #a881fc !important;
+            color: #fc72ff !important;
             font-weight: 600 !important;
           }
         }

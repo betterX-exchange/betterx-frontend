@@ -6,8 +6,8 @@ import { Autoplay, EffectFade, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import CommunitySummary, { sharedCss } from './CommunitySummary'
 import { CommunityTags } from './CommunityTags'
-import { BlogCard, TwitterCards } from './TwitterCards'
 import { LeftBottomBox, RightBottomBox } from './ImagesOnBg'
+import { BlogCard, TwitterCards } from './TwitterCards'
 
 const TransparentFrame = styled.div<{ isDark: boolean }>`
   position: relative;
@@ -86,7 +86,7 @@ const CommunitySection = () => {
             mb="12px"
           >
             <Heading scale="xl">{t('Join our')}</Heading>{' '}
-            <Heading color={theme.isDark ? '#A881FC' : theme.colors.secondary} scale="xl">
+            <Heading color={theme.isDark ? '#fc72ff' : theme.colors.secondary} scale="xl">
               {t('Community')}
             </Heading>
           </Flex>

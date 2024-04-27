@@ -1,19 +1,19 @@
-import { styled } from 'styled-components'
-import { useState, useCallback, useMemo } from 'react'
-import { Flex, Box, Card, Text, useMatchBreakpoints, Balance, ButtonTabMenu } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
-import { useCakePrice } from 'hooks/useCakePrice'
+import { Balance, Box, ButtonTabMenu, Card, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { useCakePrice } from 'hooks/useCakePrice'
+import { useCallback, useMemo, useState } from 'react'
 import { usePotteryData } from 'state/pottery/hook'
-import Deposit from './Deposit/index'
-import Claim from './Claim/index'
-import CardHeader from './CardHeader'
+import { styled } from 'styled-components'
 import { POT_CATEGORY } from '../../types'
+import CardHeader from './CardHeader'
+import Claim from './Claim/index'
+import Deposit from './Deposit/index'
 
 const PotteryContainer = styled(Box)`
   position: relative;
   padding: 44px 16px 56px 16px;
-  background: radial-gradient(51.67% 114.22% at 51.67% 49.78%, #6e42bc 0%, #a881fc 100%);
+  background: radial-gradient(51.67% 114.22% at 51.67% 49.78%, #6e42bc 0%, #fc72ff 100%);
 
   &:: before {
     content: '';
@@ -106,7 +106,7 @@ const Pot: React.FC<React.PropsWithChildren> = () => {
                 <CardHeader
                   title={t('Pottery')}
                   subTitle={t('Stake CAKE, Earn CAKE, Win CAKE')}
-                  primarySrc="https://tokens.pancakeswap.finance/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+                  primarySrc="https://assets.betterx.pro/tokens/images/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
                   secondarySrc="/images/pot-icon.svg"
                 />
                 {activeTab === POT_CATEGORY.Deposit ? <Deposit /> : <Claim />}

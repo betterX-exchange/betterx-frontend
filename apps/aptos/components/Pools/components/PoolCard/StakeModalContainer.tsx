@@ -1,14 +1,14 @@
 import { useToast } from '@pancakeswap/uikit'
 import { Pool } from '@pancakeswap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { useCallback } from 'react'
-import { ToastDescriptionWithTx } from 'components/Toast'
-import useCatchTxError from 'hooks/useCatchTxError'
-import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { Coin } from '@pancakeswap/aptos-swap-sdk'
 import { TransactionResponse } from '@pancakeswap/awgmi/dist/core'
+import { useTranslation } from '@pancakeswap/localization'
 import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ToastDescriptionWithTx } from 'components/Toast'
+import useActiveWeb3React from 'hooks/useActiveWeb3React'
+import useCatchTxError from 'hooks/useCatchTxError'
+import { useCallback } from 'react'
 
 const StakeModalContainer = ({
   pool,
@@ -106,7 +106,7 @@ const StakeModalContainer = ({
       account={account}
       handleConfirmClick={handleConfirmClick}
       isRemovingStake={isRemovingStake}
-      imageUrl="https://tokens.pancakeswap.finance/images/aptos/"
+      imageUrl="https://assets.betterx.pro/tokens/images/aptos/"
     />
   )
 }

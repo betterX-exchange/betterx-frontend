@@ -9,16 +9,16 @@ import { supportedChainIdV3 } from '../src'
 import { CommonPrice, getFarmsPrices } from '../src/fetchFarmsV3'
 
 const tokenListMap = {
-  [ChainId.BSC]: 'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
-  [ChainId.ETHEREUM]: 'https://tokens.pancakeswap.finance/pancakeswap-eth-default.json',
-  [ChainId.ZKSYNC]: 'https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json',
-  [ChainId.POLYGON_ZKEVM]: 'https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json',
-  [ChainId.ARBITRUM_ONE]: 'https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json',
-  [ChainId.LINEA]: 'https://tokens.pancakeswap.finance/pancakeswap-linea-default.json',
+  [ChainId.BSC]: 'https://assets.betterx.pro/tokens/pancakeswap-extended.json',
+  [ChainId.ETHEREUM]: 'https://assets.betterx.pro/tokens/pancakeswap-eth-default.json',
+  [ChainId.ZKSYNC]: 'https://assets.betterx.pro/tokens/pancakeswap-zksync-default.json',
+  [ChainId.POLYGON_ZKEVM]: 'https://assets.betterx.pro/tokens/pancakeswap-polygon-zkevm-default.json',
+  [ChainId.ARBITRUM_ONE]: 'https://assets.betterx.pro/tokens/pancakeswap-arbitrum-default.json',
+  [ChainId.LINEA]: 'https://assets.betterx.pro/tokens/pancakeswap-linea-default.json',
   [ChainId.PULSECHAIN]: 'https://raw.githubusercontent.com/sharadjaiswal1411/tokens/main/tokens.json',
-  [ChainId.BASE]: 'https://tokens.pancakeswap.finance/pancakeswap-base-default.json',
+  [ChainId.BASE]: 'https://assets.betterx.pro/tokens/pancakeswap-base-default.json',
   [ChainId.DEGENCHAIN]: 'https://raw.githubusercontent.com/sharadjaiswal1411/tokens/main/tokens.json',
-  [ChainId.OPBNB]: 'https://tokens.pancakeswap.finance/pancakeswap-opbnb-default.json',
+  [ChainId.OPBNB]: 'https://assets.betterx.pro/tokens/pancakeswap-opbnb-default.json',
 } as const
 
 describe('Config farms V3', async () => {

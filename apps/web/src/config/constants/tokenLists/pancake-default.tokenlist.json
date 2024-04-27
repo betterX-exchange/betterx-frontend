@@ -1,5 +1,5 @@
 {
-  "name": "PancakeSwap Default List",
+  "name": "Betterx Default List",
   "timestamp": "2022-01-26T11:45:09Z",
   "version": {
     "major": 4,
@@ -7,16 +7,1173 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancake", "default"],
+  "logoURI": "https://betterx.pro/logo.png",
+  "keywords": ["betterx", "default"],
   "tokens": [
+    {
+      "name": "Hedron S'mores Address",
+      "symbol": "HSA",
+      "address": "0xe1d32634516926F0A440ef42b8fCD9fefe71ADBE",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xe1d32634516926F0A440ef42b8fCD9fefe71ADBE.png"
+    },
+
+    {
+      "name": "BetterX Exchange",
+      "symbol": "BetterX",
+      "address": "0x3C3C2BE92AdEa76F7481540256CB7df1803c7074",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x3C3C2BE92AdEa76F7481540256CB7df1803c7074.png"
+    },
+    {
+      "name": "ナナナ Banana Republic",
+      "symbol": "Nanana",
+      "address": "0x74D98E37132dF921dF38c5A2Ae8748aDbab63238",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x74D98E37132dF921dF38c5A2Ae8748aDbab63238.png"
+    },
+    {
+      "name": "Pulse Wrapped BTC",
+      "symbol": "pWBTC",
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599.png"
+    },
+    {
+      "name": "Book of PEPE",
+      "symbol": "BOPE",
+      "address": "0x025B605D41Ef59f2A4C0b8D4e617dBe4376371E7",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x025B605D41Ef59f2A4C0b8D4e617dBe4376371E7.png"
+    },
+    {
+      "name": "PulseCriptions",
+      "symbol": "PLSCX",
+      "address": "0x3D7eaf3a2406DFaD68be0dA504eCD690B80AAE48",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x3D7eaf3a2406DFaD68be0dA504eCD690B80AAE48.png"
+    },
+    {
+      "name": "Never Broke Again",
+      "symbol": "NBA",
+      "address": "0x93Ad3C61f5e39c0DA07fCEbAe0261eAA2d3A9314",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x93Ad3C61f5e39c0DA07fCEbAe0261eAA2d3A9314.png"
+    },
+    {
+      "name": "HOAX",
+      "symbol": "HOAX",
+      "address": "0x4CB4eDdE04772332a42ECb039f3790e17733B4B8",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x4CB4eDdE04772332a42ECb039f3790e17733B4B8.png"
+    },
+    {
+      "name": "Enigma404",
+      "symbol": "Enigma404",
+      "address": "0x51AD4671492dcf0544506f1Fe13C82c1Fb874FA2",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x51AD4671492dcf0544506f1Fe13C82c1Fb874FA2.png"
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x6982508145454Ce325dDbE47a25d4ec3d2311933.png"
+    },
+    {
+      "name": "Degen Anonymous",
+      "symbol": "ANON",
+      "address": "0x075F7F657AEAD0e698EDb4E0A47d1DEF869536B4",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x075F7F657AEAD0e698EDb4E0A47d1DEF869536B4.png"
+    },
+    {
+      "name": "ALL TIME HIGH",
+      "symbol": "ATH",
+      "address": "0x2Ca480415aB96caf6e3EB0A8687E89EdBAB1DF4c",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x2Ca480415aB96caf6e3EB0A8687E89EdBAB1DF4c.png"
+    },
+    {
+      "name": "Solid X",
+      "symbol": "SOLIDX",
+      "address": "0x8Da17Db850315A34532108f0f5458fc0401525f6",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x8Da17Db850315A34532108f0f5458fc0401525f6.png"
+    },
+    {
+      "name": "Make Ethereum Great Again",
+      "symbol": "MEGA",
+      "address": "0x8eDb13CE75562056DFf2221D193557Fb4A05770D",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x8eDb13CE75562056DFf2221D193557Fb4A05770D.png"
+    },
+    {
+      "name": "Kakadu",
+      "symbol": "Kakadu",
+      "address": "0x46565877E756b2ACca78faf2F7FF558DafbdD3E4",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x46565877E756b2ACca78faf2F7FF558DafbdD3E4.png"
+    },
+    {
+      "name": "NeckBeard Coin",
+      "symbol": "NBC",
+      "address": "0xc9f523Fce37A28893A83Da68BbA03835D97Ae059",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xc9f523Fce37A28893A83Da68BbA03835D97Ae059.png"
+    },
+    {
+      "name": "Glass",
+      "symbol": "Glass",
+      "address": "0xd687FF2C9C5294f4A2bC0300B46eA921dB312063",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xd687FF2C9C5294f4A2bC0300B46eA921dB312063.png"
+    },
+    {
+      "name": "BOBO",
+      "symbol": "BOBO",
+      "address": "0x645c33E6ecC5e5FD67Bcc248cAd29B1950E469C6",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x645c33E6ecC5e5FD67Bcc248cAd29B1950E469C6.png"
+    },
+    {
+      "name": "HONK",
+      "symbol": "HONK",
+      "address": "0x138568b12b027fA604Ad1d2259A6785ff1B8f8CF",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x138568b12b027fA604Ad1d2259A6785ff1B8f8CF.png"
+    },
+    {
+      "name": "CAPSLOCKGANG",
+      "symbol": "CLG",
+      "address": "0x9b279454E850f7BcEFf39bd24804AcADDAC50f7E",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x9b279454E850f7BcEFf39bd24804AcADDAC50f7E.png"
+    },
+    {
+      "name": "WPLS Token",
+      "symbol": "WPLS",
+      "address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xA1077a294dDE1B09bB078844df40758a5D0f9a27.png"
+    },
+    {
+      "name": "Peppa",
+      "symbol": "PEPPA",
+      "address": "0x93Cf7d72333Fe9faEb9D455b82A4c85D7F0609aa",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x93Cf7d72333Fe9faEb9D455b82A4c85D7F0609aa.png"
+    },
+    {
+      "name": "TETRA",
+      "symbol": "TETRA",
+      "address": "0xAeC4C07537B03E3E62fc066EC62401Aed5Fdd361",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xAeC4C07537B03E3E62fc066EC62401Aed5Fdd361.png"
+    },
+    {
+      "name": "PHUX",
+      "symbol": "PHUX",
+      "address": "0x9663c2d75ffd5F4017310405fCe61720aF45B829",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x9663c2d75ffd5F4017310405fCe61720aF45B829.png"
+    },
+    {
+      "name": "HOA",
+      "symbol": "HOA",
+      "address": "0x7901a3569679AEc3501dbeC59399F327854a70fe",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x7901a3569679AEc3501dbeC59399F327854a70fe.png"
+    },
+    {
+      "name": "LOAN",
+      "symbol": "LOAN",
+      "address": "0x9159f1D2a9f51998Fc9Ab03fbd8f265ab14A1b3B",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x9159f1D2a9f51998Fc9Ab03fbd8f265ab14A1b3B.png"
+    },
+    {
+      "name": "OG.INCENTIVE",
+      "symbol": "OG",
+      "address": "0xF84b84dAAce6Ac00DbBAed26CA32Ff3570Aaf66C",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xF84b84dAAce6Ac00DbBAed26CA32Ff3570Aaf66C.png"
+    },
+    {
+      "name": "PUSSY CAT",
+      "symbol": "PUSSY",
+      "address": "0x733099917CbA30614e4b2ef1de8A551645665143",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x733099917CbA30614e4b2ef1de8A551645665143.png"
+    },
+    {
+      "name": "TANGent Golden Yacht",
+      "symbol": "YACHT",
+      "address": "0xdB8E20f794Fa48d36Ae4988dC3D5Ba327df625f8",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xdB8E20f794Fa48d36Ae4988dC3D5Ba327df625f8.png"
+    },
+    {
+      "name": "pCOM",
+      "symbol": "pCOM",
+      "address": "0x5A9780Bfe63f3ec57f01b087cD65BD656C9034A8",
+      "chainId": 369,
+      "decimals": 12,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x5A9780Bfe63f3ec57f01b087cD65BD656C9034A8.png"
+    },
+    {
+      "name": "eCOM",
+      "symbol": "eCOM",
+      "address": "0x0195D5990a7D6d7Ee7a3A4610E357bB660494BA0",
+      "chainId": 369,
+      "decimals": 12,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x0195D5990a7D6d7Ee7a3A4610E357bB660494BA0.png"
+    },
+    {
+      "name": "TYRH",
+      "symbol": "TYRH",
+      "address": "0xc91562626B9a697af683555dA9946986278Ac9a5",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xc91562626B9a697af683555dA9946986278Ac9a5.png"
+    },
+    {
+      "name": "HDRN",
+      "symbol": "HDRN",
+      "address": "0x3819f64f282bf135d62168C1e513280dAF905e06",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x3819f64f282bf135d62168C1e513280dAF905e06.png"
+    },
+    {
+      "name": "ICSA",
+      "symbol": "ICSA",
+      "address": "0xfc4913214444aF5c715cc9F7b52655e788A569ed",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xfc4913214444aF5c715cc9F7b52655e788A569ed.png"
+    },
+    {
+      "name": "LOVE",
+      "symbol": "LOVE",
+      "address": "0xb55EE890426341FE45EE6dc788D2D93d25B59063",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xb55EE890426341FE45EE6dc788D2D93d25B59063.png"
+    },
+    {
+      "name": "pHEX",
+      "symbol": "pHEX",
+      "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39.png"
+    },
+    {
+      "name": "eHEX",
+      "symbol": "eHEX",
+      "address": "0x57fde0a71132198BBeC939B98976993d8D89D225",
+      "chainId": 369,
+      "decimals": 8,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x57fde0a71132198BBeC939B98976993d8D89D225.png"
+    },
+    {
+      "name": "ATROPA",
+      "symbol": "ATROPA",
+      "address": "0xCc78A0acDF847A2C1714D2A925bB4477df5d48a6",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xCc78A0acDF847A2C1714D2A925bB4477df5d48a6.png"
+    },
+    {
+      "name": "uP",
+      "symbol": "uP",
+      "address": "0x131bF51e864024DF1982F2cd7B1C786e1A005152",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x131bF51e864024DF1982F2cd7B1C786e1A005152.png"
+    },
+    {
+      "name": "uPX",
+      "symbol": "uPX",
+      "address": "0x664E58570e5835B99d281f12dD14d350315D7E2a",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x664E58570e5835B99d281f12dD14d350315D7E2a.png"
+    },
+    {
+      "name": "TIME",
+      "symbol": "TIME",
+      "address": "0xCA35638A3fdDD02fEC597D8c1681198C06b23F58",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xCA35638A3fdDD02fEC597D8c1681198C06b23F58.png"
+    },
+    {
+      "name": "BEET",
+      "symbol": "BEET",
+      "address": "0xeDA0073B4Aa1b1B6f9c718c3036551ab46E5Ec32",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xeDA0073B4Aa1b1B6f9c718c3036551ab46E5Ec32.png"
+    },
+    {
+      "name": "PHAME",
+      "symbol": "PHAME",
+      "address": "0x8854bC985fB5725F872c8856bEA11B917cAEb2fE",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x8854bC985fB5725F872c8856bEA11B917cAEb2fE.png"
+    },
+    {
+      "name": "9INCH",
+      "symbol": "9INCH",
+      "address": "0x3ca80d83277e721171284667829c686527B8b3c5",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x3ca80d83277e721171284667829c686527B8b3c5.png"
+    },
+    {
+      "name": "CHIITAN",
+      "symbol": "CHIITAN",
+      "address": "0xabeb72F153e050B3F8cCa3DD93fe1eEaD51123DB",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xabeb72F153e050B3F8cCa3DD93fe1eEaD51123DB.png"
+    },
+    {
+      "name": "RicHoord hArt",
+      "symbol": "HART",
+      "address": "0xD11f64ced78fd0235433fB737c992781E5Ce0C82",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xD11f64ced78fd0235433fB737c992781E5Ce0C82.png"
+    },
+    {
+      "name": "BOOMER",
+      "symbol": "BOOMER",
+      "address": "0x27b67bd4b710C352a5716b77ce1bfc2beb5CA1e2",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x27b67bd4b710C352a5716b77ce1bfc2beb5CA1e2.png"
+    },
+    {
+      "name": "Furu Token",
+      "symbol": "FURU",
+      "address": "0x764F1A4e2D5A7D1A32aC0F8B8A109cE831C3dC66",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x764F1A4e2D5A7D1A32aC0F8B8A109cE831C3dC66.png"
+    },
+    {
+      "name": "pDAI",
+      "symbol": "pDAI",
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x6B175474E89094C44Da98b954EedeAC495271d0F.png"
+    },
+    {
+      "name": "PITEAS",
+      "symbol": "PITEAS",
+      "address": "0x2A06a971fE6ffa002fd242d437E3db2b5cC5B433",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x2A06a971fE6ffa002fd242d437E3db2b5cC5B433.png"
+    },
+    {
+      "name": "RHM",
+      "symbol": "RHM",
+      "address": "0x8f1D7d2f81BE5DBd82313BEeDA0877Fb34351756",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x8f1D7d2f81BE5DBd82313BEeDA0877Fb34351756.png"
+    },
+    {
+      "name": "RHXL",
+      "symbol": "RHXL",
+      "address": "0x0784e455D0a3adb2c02Aa241F029B9fc3F55FA5A",
+      "chainId": 369,
+      "decimals": 9,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x0784e455D0a3adb2c02Aa241F029B9fc3F55FA5A.png"
+    },
+    {
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "address": "0xefD766cCb38EaF1dfd701853BFCe31359239F305",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0xefD766cCb38EaF1dfd701853BFCe31359239F305.png"
+    },
+    {
+      "name": "PulseX",
+      "symbol": "PLSX",
+      "address": "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x95B303987A60C71504D99Aa1b13B4DA07b0790ab.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
+      "chainId": 369,
+      "decimals": 6,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f",
+      "chainId": 369,
+      "decimals": 6,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f.png"
+    },
+    {
+      "name": "Incentive",
+      "symbol": "INC",
+      "address": "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d.png"
+    },
+    {
+      "name": "USDL Stablecoin",
+      "symbol": "USDL",
+      "address": "0x0dEEd1486bc52aA0d3E6f8849cEC5adD6598A162",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x0dEEd1486bc52aA0d3E6f8849cEC5adD6598A162.png"
+    },
+    {
+      "name": "AxisAlive",
+      "symbol": "AXIS",
+      "address": "0x8BDB63033b02C15f113De51EA1C3a96Af9e8ecb5",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x8BDB63033b02C15f113De51EA1C3a96Af9e8ecb5.png"
+    },
+    {
+      "name": "LOAN",
+      "symbol": "LOAN",
+      "address": "0x9159f1D2a9f51998Fc9Ab03fbd8f265ab14A1b3B",
+      "chainId": 369,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x9159f1D2a9f51998Fc9Ab03fbd8f265ab14A1b3B.png"
+    },
+    {
+      "chainId": 369,
+      "address": "0x0ef57e7382be66f41c52307d19dd84a8b55b5ee2",
+      "name": "RichAI",
+      "symbol": "RICHAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30272/thumb/Group_1000002759.png?1696529179"
+    },
+    {
+      "chainId": 369,
+      "address": "0xbb101431d43b0e1fc31f000bf96826794806e0b4",
+      "name": "Apin Pulse",
+      "symbol": "APC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31094/thumb/m_gH0JjI_400x400.jpg?1696529926"
+    },
+    {
+      "chainId": 369,
+      "address": "0xe846884430d527168b4eaac80af9268515d2f0cc",
+      "name": "Atropine",
+      "symbol": "PINE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32434/thumb/atropine-logo_200x200.png?1698217376"
+    },
+    {
+      "chainId": 369,
+      "address": "0xc42945a98eaaae8fafbc76bace473c90d8100967",
+      "name": "Magic Carpet Ride",
+      "symbol": "MAGIC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35632/thumb/200x200.png?1709293333"
+    },
+    {
+      "chainId": 369,
+      "address": "0x6cf99baa0a4d079f960216d08cf9a1bc7e4dd37c",
+      "name": "EazySwap Token",
+      "symbol": "EAZY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30833/thumb/logo2_%283%29.png?1696529686"
+    },
+    {
+      "chainId": 369,
+      "address": "0xdfdc2836fd2e63bba9f0ee07901ad465bff4de71",
+      "name": "POWERCITY WATT",
+      "symbol": "WATT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33663/thumb/200x200-WATT_token-.png?1702601503"
+    },
+    {
+      "chainId": 369,
+      "address": "0x853a8ab1c365ea54719eb13a54d6b22f1fbe7feb",
+      "name": "InvestDex",
+      "symbol": "INVEST",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/16382/thumb/FINAL_FINAL.png?1696515980"
+    },
+    {
+      "chainId": 369,
+      "address": "0xde0220b69ce3e855a0124433a8e8d093f53a6be4",
+      "name": "Where Did The ETH Go   Pulsechain ",
+      "symbol": "WHETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31748/thumb/FECcG807_400x400.jpg?1696530567"
+    },
+    {
+      "chainId": 369,
+      "address": "0x655cdd69442912076a05975c26ea59bad179244d",
+      "name": "Pulse Inu",
+      "symbol": "PINU",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/30473/thumb/PULSE_SHIBA_transparant.png?1696529360"
+    },
+    {
+      "chainId": 369,
+      "address": "0x2fa878ab3f87cc1c9737fc071108f904c0b0c95d",
+      "name": "PulseX Incentive Token",
+      "symbol": "INC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/34426/thumb/0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d.png?1712869662"
+    },
+    {
+      "chainId": 369,
+      "address": "0xeda0073b4aa1b1b6f9c718c3036551ab46e5ec32",
+      "name": "BEETroot",
+      "symbol": "BEET",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/30732/thumb/372F4EE5-F86E-4338-9BF4-3F8558E73D8F.jpeg?1696529602"
+    },
+    {
+      "chainId": 369,
+      "address": "0x9cc7437978255e2c38b0d3d4671fb9ac411a68ac",
+      "name": "Doge on Pulsechain",
+      "symbol": "DOGE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30779/thumb/doge_on_pulsechain.jpeg?1696529647"
+    },
+    {
+      "chainId": 369,
+      "address": "0xf8ab3393b1f5cd6184fb6800a1fc802043c4063e",
+      "name": "Monat Money",
+      "symbol": "MONAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32126/thumb/_Monat_Logo.png?1696587506"
+    },
+    {
+      "chainId": 369,
+      "address": "0xa685c45fd071df23278069db9137e124564897d0",
+      "name": "PulseLN",
+      "symbol": "PLN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31625/thumb/200-logo.png?1696530441"
+    },
+    {
+      "chainId": 369,
+      "address": "0x0b14edb2ffaea3888f62d5fbfb2b88c53a987ddd",
+      "name": "WhalesCandyPLS com",
+      "symbol": "WC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30658/thumb/wcpp1.png?1696529528"
+    },
+    {
+      "chainId": 369,
+      "address": "0x276108f8dea409d3ea2a8df2bf4ba4b790449656",
+      "name": "ackchyually",
+      "symbol": "ACTLY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36535/thumb/0x276108f8DeA409d3eA2a8DF2BF4Ba4b790449656.png?1711706073"
+    },
+    {
+      "chainId": 369,
+      "address": "0x664e58570e5835b99d281f12dd14d350315d7e2a",
+      "name": "uPX",
+      "symbol": "UPX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33136/thumb/uPX_Logo.jpg?1700807969"
+    },
+    {
+      "chainId": 369,
+      "address": "0xa1077a294dde1b09bb078844df40758a5d0f9a27",
+      "name": "Wrapped Pulse",
+      "symbol": "WPLS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30432/thumb/pulse.jpeg?1696529320"
+    },
+    {
+      "chainId": 369,
+      "address": "0x39b9d781dad0810d07e24426c876217218ad353d",
+      "name": "Pulsechain FLOW",
+      "symbol": "FLOW",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30749/thumb/Flow-circle-aqua-150x150.png?1696529618"
+    },
+    {
+      "chainId": 369,
+      "address": "0x8a7fdca264e87b6da72d000f22186b4403081a2a",
+      "name": "XEN Crypto  PulseChain ",
+      "symbol": "PXEN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30627/thumb/Screenshot_2023-05-28_at_01-32-39_xencryptolp_-_xencryptolp.pdf%281%29.png?1696529500"
+    },
+    {
+      "chainId": 369,
+      "address": "0xca66b54a8a4ad9a231dd70d3605d1ff6ae95d427",
+      "name": "Chirp Finance",
+      "symbol": "CHIRP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30908/thumb/chirp_icon.png?1696529753"
+    },
+    {
+      "chainId": 369,
+      "address": "0x303f764a9c9511c12837cd2d1ecf13d4a6f99e17",
+      "name": "Atrofarm",
+      "symbol": "ATROFA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32044/thumb/DALL%C2%B7E_2023-09-22_19.32.04.png?1696530841"
+    },
+    {
+      "chainId": 369,
+      "address": "0xeb6b7932da20c6d7b3a899d5887d86dfb09a6408",
+      "name": "PXDC",
+      "symbol": "PXDC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33877/thumb/200x200-PXDC-token.png?1703145326"
+    },
+    {
+      "chainId": 369,
+      "address": "0xe101c848620e762ecb942356962dd415342b4feb",
+      "name": "PulseLaunch",
+      "symbol": "LAUNCH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36829/thumb/gradient_black_rocket_200x200.png?1712557340"
+    },
+    {
+      "chainId": 369,
+      "address": "0x95b303987a60c71504d99aa1b13b4da07b0790ab",
+      "name": "PulseX",
+      "symbol": "PLSX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30444/thumb/pulsex.jpeg?1696529332"
+    },
+    {
+      "chainId": 369,
+      "address": "0x15d38573d2feeb82e7ad5187ab8c1d52810b1f07",
+      "name": "Bridged USD Coin  PulseChain ",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/30514/thumb/usdc.png?1696529399"
+    },
+    {
+      "chainId": 369,
+      "address": "0x0cb6f5a34ad42ec934882a05265a7d5f59b51a2f",
+      "name": "Bridged Tether  PulseChain ",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/30515/thumb/usdt.png?1696529400"
+    },
+    {
+      "chainId": 369,
+      "address": "0x0deed1486bc52aa0d3e6f8849cec5add6598a162",
+      "name": "Liquid Loans USDL",
+      "symbol": "USDL",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/34292/thumb/IMG_20240103_222001_463.jpg?1704601016"
+    },
+    {
+      "chainId": 369,
+      "address": "0xb55ee890426341fe45ee6dc788d2d93d25b59063",
+      "name": "Love io",
+      "symbol": "LOVE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33011/thumb/IMG_7458.png?1700124277"
+    },
+    {
+      "chainId": 369,
+      "address": "0x1b7b541bea3af39292fce08649e4c4e1bee408a1",
+      "name": "Alien",
+      "symbol": "ALIEN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35053/thumb/Alien.jpg?1707214245"
+    },
+    {
+      "chainId": 369,
+      "address": "0x3ca80d83277e721171284667829c686527b8b3c5",
+      "name": "9inch",
+      "symbol": "9INCH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32662/thumb/9INCH-logo.png?1698901092"
+    },
+    {
+      "chainId": 369,
+      "address": "0xb971a3429c04d96f8a75edac7bc79e7c4672b4e6",
+      "name": "XenBitcoin",
+      "symbol": "XBTC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30608/thumb/XENBITCOIN200x200.jpg?1696529478"
+    },
+    {
+      "chainId": 369,
+      "address": "0x97f7259931f98cc64ebcd993fde03d71716f3e07",
+      "name": "Nuts",
+      "symbol": "NUTS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35927/thumb/NUTS.jpg?1710224954"
+    },
+    {
+      "chainId": 369,
+      "address": "0xc91562626b9a697af683555da9946986278ac9a5",
+      "name": "TYRH",
+      "symbol": "TYRH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31408/thumb/logo2.png?1696530223"
+    },
+    {
+      "chainId": 369,
+      "address": "0x00febf86e8f0673f0feadac14b5ea1a05e744cb7",
+      "name": "GrowthDefi GBTC",
+      "symbol": "GBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/37295/thumb/gbtc200.png?1713950182"
+    },
+    {
+      "chainId": 369,
+      "address": "0xefd766ccb38eaf1dfd701853bfce31359239f305",
+      "name": "Bridged DAI  PulseChain ",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30513/thumb/0xefD766cCb38EaF1dfd701853BFCe31359239F305.png?1712451557"
+    },
+    {
+      "chainId": 369,
+      "address": "0x94534eeee131840b1c0f61847c572228bdfdde93",
+      "name": "The Grays Currency",
+      "symbol": "PTGC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32933/thumb/pTGC.jpeg?1699870420"
+    },
+    {
+      "chainId": 369,
+      "address": "0x09e64c2b61a5f1690ee6fbed9baf5d6990f8dfd0",
+      "name": "Growth",
+      "symbol": "GRO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/37345/thumb/gro.jpeg?1714060196"
+    },
+    {
+      "chainId": 369,
+      "address": "0x9159f1d2a9f51998fc9ab03fbd8f265ab14a1b3b",
+      "name": "Liquid Loans",
+      "symbol": "LOAN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33490/thumb/loan-500X500.png?1702029616"
+    },
+    {
+      "chainId": 369,
+      "address": "0x347a96a5bd06d2e15199b032f46fb724d6c73047",
+      "name": "ASIC Token  Pulsechain ",
+      "symbol": "ASIC",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/30771/thumb/asic_new.png?1696529639"
+    },
+    {
+      "chainId": 369,
+      "address": "0x9f8182ad65c53fd78bd07648a1b3ddcb675c6772",
+      "name": "Daytona Finance",
+      "symbol": "TONI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30652/thumb/wdfp-tAW_200x200.png?1696529522"
+    },
+    {
+      "chainId": 369,
+      "address": "0x7901a3569679aec3501dbec59399f327854a70fe",
+      "name": "Hex Orange Address",
+      "symbol": "HOA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31595/thumb/20230902_065300.jpg?1696530412"
+    },
+    {
+      "chainId": 369,
+      "address": "0xdb4a3a4f8d8eeda3114183dc1de09da87b8e2858",
+      "name": "RubyPulse",
+      "symbol": "RUBY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35294/thumb/rubis.png?1708078545"
+    },
+    {
+      "chainId": 369,
+      "address": "0x17637e738d095f4e480cabbf55038e4e9e2b235e",
+      "name": "DAI Reflections",
+      "symbol": "DRS",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/32390/thumb/DRS_LOGO_200x200.png?1698051496"
+    },
+    {
+      "chainId": 369,
+      "address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+      "name": "HEX PulseChain ",
+      "symbol": "HEX",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/30646/thumb/0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39.png?1696529517"
+    },
+    {
+      "chainId": 369,
+      "address": "0xee9082daea925be8f79f1b2c457fc9470a104414",
+      "name": "Teddy Bear INU",
+      "symbol": "TBI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/34910/thumb/TBI-LOGO100x100_%281%29.png?1706604142"
+    },
+    {
+      "chainId": 369,
+      "address": "0x02dff78fdedaf86d9dfbe9b3132aa3ea72ed1680",
+      "name": "Cola Token",
+      "symbol": "COLA",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30931/thumb/FxYXK0GaIAcOx_S.png?1696529773"
+    },
+    {
+      "chainId": 369,
+      "address": "0xb6b57227150a7097723e0c013752001aad01248f",
+      "name": "PulseReflections",
+      "symbol": "PRS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31667/thumb/PRS_Token.png?1696530483"
+    },
+    {
+      "chainId": 369,
+      "address": "0x2a06a971fe6ffa002fd242d437e3db2b5cc5b433",
+      "name": "Piteas",
+      "symbol": "PTS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31582/thumb/piteas-256.png?1696530399"
+    },
+    {
+      "chainId": 369,
+      "address": "0x5ee84583f67d5ecea5420dbb42b462896e7f8d06",
+      "name": "PulseBitcoin  PulseChain ",
+      "symbol": "PLSB",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/30607/thumb/PulseBitcoin_Logo_%2832x32%29.png?1696529477"
+    },
+    {
+      "chainId": 369,
+      "address": "0x207e6b4529840a4fd518f73c68bc9c19b2a15944",
+      "name": "Mintra",
+      "symbol": "MINT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32763/thumb/v2.0.png?1699330002"
+    },
+    {
+      "chainId": 369,
+      "address": "0x8854bc985fb5725f872c8856bea11b917caeb2fe",
+      "name": "PHAME",
+      "symbol": "PHAME",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31825/thumb/CG_Logo.png?1696530639"
+    },
+    {
+      "chainId": 369,
+      "address": "0x6386704cd6f7a584ea9d23ccca66af7eba5a727e",
+      "name": "Sparkswap",
+      "symbol": "SPARK",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31655/thumb/Spark_Logo_For_Socials_.png?1696530470"
+    },
+    {
+      "chainId": 369,
+      "address": "0xe2892c876c5e52a4413ba5f373d1a6e5f2e9116d",
+      "name": "The Reptilian Currency",
+      "symbol": "TRC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36971/thumb/TRClogo200x200.png?1712910361"
+    },
+    {
+      "chainId": 369,
+      "address": "0x96e035ae0905efac8f733f133462f971cfa45db1",
+      "name": "Phiat Protocol",
+      "symbol": "PHIAT",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31704/thumb/200x200.png?1696530528"
+    },
+    {
+      "chainId": 369,
+      "address": "0x600136da8cc6d1ea07449514604dc4ab7098db82",
+      "name": "Coast CST",
+      "symbol": "CST",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/34401/thumb/Coast_Logo_500.png?1704788577"
+    },
+    {
+      "chainId": 369,
+      "address": "0x880dd541e00b966d829968c3198f11c8ca38a877",
+      "name": "PulseTrailerPark",
+      "symbol": "PTP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35334/thumb/PulseTrailerPark.png?1708273407"
+    },
+    {
+      "chainId": 369,
+      "address": "0xdd40a166b43c0b95f1248c9a5affd7a166f1526a",
+      "name": "Yield Finance",
+      "symbol": "YIELDX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31030/thumb/token_logo_for_cG.png?1696529866"
+    },
+    {
+      "chainId": 369,
+      "address": "0x43eaba2e2d2f32f1207a11a18679287dc7700015",
+      "name": "Real BIG Coin",
+      "symbol": "RBC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30926/thumb/RBC_LOGO.png?1696529769"
+    },
+    {
+      "chainId": 369,
+      "address": "0xca35638a3fddd02fec597d8c1681198c06b23f58",
+      "name": "T I M E  Dividend",
+      "symbol": "TIME",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31736/thumb/TIME_200_-_Imgur.png?1696530555"
+    },
+    {
+      "chainId": 369,
+      "address": "0x9663c2d75ffd5f4017310405fce61720af45b829",
+      "name": "PHUX Governance Token",
+      "symbol": "PHUX",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/30867/thumb/PHIUX_CG.png?1696529714"
+    },
+    {
+      "chainId": 369,
+      "address": "0xa12e2661ec6603cbbb891072b2ad5b3d5edb48bd",
+      "name": "Pulse Inu",
+      "symbol": "PINU",
+      "decimals": 12,
+      "logoURI": "https://assets.coingecko.com/coins/images/33346/thumb/PULSE_INU.jpg?1705163848"
+    },
+    {
+      "chainId": 369,
+      "address": "0xb513038bbfdf9d40b676f41606f4f61d4b02c4a2",
+      "name": "POWERCITY Earn Protocol",
+      "symbol": "EARN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33876/thumb/200x200-EARN-token.png?1703145126"
+    },
+    {
+      "chainId": 369,
+      "address": "0x5f63bc3d5bd234946f18d24e98c324f629d9d60e",
+      "name": "IMPLS Finance",
+      "symbol": "IMPLS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/31493/thumb/impls_200x200.png?1696530304"
+    },
+    {
+      "chainId": 369,
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "name": "DAI on PulseChain",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36735/thumb/pDAI_200x200.png?1712451453"
+    },
+    {
+      "chainId": 369,
+      "address": "0xd22e78c22d7e77229d60cc9fc57b0e294f54488e",
+      "name": "Hocus Pocus Finance",
+      "symbol": "HOC",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/34675/thumb/HOC.png?1705683057"
+    },
+    {
+      "chainId": 369,
+      "address": "0xd6c31ba0754c4383a41c0e9df042c62b5e918f6d",
+      "name": "TEDDY BEAR",
+      "symbol": "BEAR",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/32028/thumb/TEDDYBEAR-COINMARKETCAP-LOGO-200X200.png?1705513787"
+    },
+    {
+      "chainId": 369,
+      "address": "0xfd3a511cb1c435d6a6e471392902bf4a83773d9c",
+      "name": "DinoLFG",
+      "symbol": "DINO",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28239/thumb/F1giO3rXsAAFOsG.jpg?1696527242"
+    },
+    {
+      "chainId": 369,
+      "address": "0xa712329708af665991c3fcff43bc5734924f7b9a",
+      "name": "VEMP",
+      "symbol": "VEMP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18074/thumb/VEMP_Token_200x200.png?1696517581"
+    },
+    {
+      "chainId": 369,
+      "address": "0x4581af35199bbde87a89941220e04e27ce4b0099",
+      "name": "Maximus Pool Party",
+      "symbol": "PARTY",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/35369/thumb/Party.png?1708401334"
+    },
+    {
+      "chainId": 369,
+      "address": "0xfc4913214444af5c715cc9f7b52655e788a569ed",
+      "name": "Icosa",
+      "symbol": "ICSA",
+      "decimals": 9,
+      "logoURI": "https://assets.coingecko.com/coins/images/27708/thumb/icsa.e2b79cbc.png?1696526734"
+    },
+    {
+      "chainId": 369,
+      "address": "0xf55cd1e399e1cc3d95303048897a680be3313308",
+      "name": "Maximus TRIO",
+      "symbol": "TRIO",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27684/thumb/IMG_1127.PNG?1696526712"
+    },
+    {
+      "chainId": 369,
+      "address": "0x6b0956258ff7bd7645aa35369b55b61b8e6d6140",
+      "name": "Maximus LUCKY",
+      "symbol": "LUCKY",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27685/thumb/IMG_1129.PNG?1696526713"
+    },
+    {
+      "chainId": 369,
+      "address": "0xe9f84d418b008888a992ff8c6d22389c2c3504e0",
+      "name": "Maximus BASE",
+      "symbol": "BASE",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/27683/thumb/IMG_1131.PNG?1696526711"
+    },
+    {
+      "chainId": 369,
+      "address": "0x23b608675a2b2fb1890d3abbd85c5775c51691d5",
+      "name": "Unisocks",
+      "symbol": "SOCKS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/10717/thumb/qFrcoiM.png?1696510685"
+    },
+
+    {
+      "name": "BetterX Exchange",
+      "symbol": "BetterX",
+      "address": "0x78F19f5eC7A18F4106b9ec79A1afcBD399773E7E",
+      "chainId": 666666666,
+      "decimals": 18,
+      "logoURI": "https://tokens.9mm.pro/pulse/0x78F19f5eC7A18F4106b9ec79A1afcBD399773E7E.png"
+    },
+
+    {
+      "chainId": 666666666,
+      "address": "0xeb1c32ea4e392346795aed3607f37646e2a9c13f",
+      "name": "All Time High",
+      "symbol": "ATH",
+      "decimals": 18,
+      "logoURI": "https://dd.dexscreener.com/ds-data/tokens/degenchain/0xeb1c32ea4e392346795aed3607f37646e2a9c13f.png"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0xeb54dacb4c2ccb64f8074eceea33b5ebb38e5387",
+      "name": "Wrapped DEGEN",
+      "symbol": "WDEGEN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36809/thumb/wdegen.jpeg?1712546442"
+    },
+
+    {
+      "chainId": 666666666,
+      "address": "0x0c3544b0b78a0eea3bb4ca3774b72055a66e4ee5",
+      "name": "DegenSwap",
+      "symbol": "DSWAP",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36801/thumb/degenswap.jpeg?1712469536"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0x54f667db585b7b10347429c72c36c8b59ab441cb",
+      "name": "Good Old Fashioned Un Registered Securi",
+      "symbol": "GOFURS",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36806/thumb/gofurs.jpeg?1712473928"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0xcf79da9c663d446c6e0da7e3b18ce77ff26da26a",
+      "name": "Degen Cet",
+      "symbol": "CET",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36681/thumb/IMG_20240331_222049_595_%281%29.jpg?1712064251"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0x7d4f462895ad2a6856cb6e94055b841c3ca55987",
+      "name": "Frogswap",
+      "symbol": "FROG",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36650/thumb/frog_logo.png?1712040581"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0x4c9436d7aac04a40aca30ab101107081223d6e92",
+      "name": "DINU",
+      "symbol": "DINU",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/36730/thumb/dinu_200x200.png?1712159206"
+    },
+    {
+      "chainId": 666666666,
+      "address": "0xA051A2Cb19C00eCDffaE94D0Ff98c17758041D16",
+      "name": "PROXY",
+      "symbol": "PROXY",
+      "decimals": 18,
+      "logoURI": "https://dd.dexscreener.com/ds-data/dexes/proxyswap.png"
+    },
+
     {
       "name": "Wrapped BNB",
       "symbol": "WBNB",
       "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/bnb.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/bnb.png"
     },
     {
       "name": "BUSD Token",
@@ -24,7 +1181,7 @@
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/busd.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/busd.png"
     },
     {
       "name": "Ethereum Token",
@@ -32,7 +1189,7 @@
       "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
     },
     {
       "name": "BTCB Token",
@@ -40,7 +1197,7 @@
       "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/wbtc.png"
     },
     {
       "name": "Tether USD",
@@ -48,7 +1205,7 @@
       "address": "0x55d398326f99059fF775485246999027B3197955",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -56,7 +1213,7 @@
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -64,7 +1221,7 @@
       "address": "0xFa60D973F7642B748046464e165A65B7323b0DEE",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -72,7 +1229,7 @@
       "address": "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898",
       "chainId": 1,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -80,7 +1237,7 @@
       "address": "0xc2C3eAbE0368a2Ea97f485b03D1098cdD7d0c081",
       "chainId": 5,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -88,7 +1245,7 @@
       "address": "0xFf2FA31273c1aedB67017B52C625633d2F021f67",
       "chainId": 280,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -96,7 +1253,7 @@
       "address": "0x0D1E753a25eBda689453309112904807625bEFBe",
       "chainId": 1101,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -104,7 +1261,7 @@
       "address": "0x3A287a06c66f9E95a56327185cA2BDF5f031cEcD",
       "chainId": 324,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -112,7 +1269,7 @@
       "address": "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
       "chainId": 42161,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -120,7 +1277,7 @@
       "address": "0x2B3C5df29F73dbF028BA82C33e0A5A6e5800F75e",
       "chainId": 1442,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -128,7 +1285,7 @@
       "address": "0x0D1E753a25eBda689453309112904807625bEFBe",
       "chainId": 59144,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -136,7 +1293,7 @@
       "address": "0x62FF25CFD64E55673168c3656f4902bD7Aa5F0f4",
       "chainId": 421613,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -144,7 +1301,7 @@
       "address": "0x3055913c90Fcc1A6CE9a358911721eEb942013A1",
       "chainId": 8453,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -152,7 +1309,7 @@
       "address": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -160,7 +1317,7 @@
       "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "Test BUSD Token",
@@ -168,7 +1325,7 @@
       "address": "0xaB1a4d4f1D656d2450692D237fdD6C7f9146e814",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/busd.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/busd.png"
     },
     {
       "name": "Wrapped Ether",
@@ -176,7 +1333,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 5,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -184,7 +1341,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -192,7 +1349,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 84532,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -200,7 +1357,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 421614,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -208,7 +1365,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 11155111,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -216,7 +1373,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 42161,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -224,7 +1381,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 280,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -232,7 +1389,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 324,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -240,7 +1397,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 421613,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "Wrapped Ether",
@@ -248,7 +1405,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 1101,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/weth.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/weth.png"
     },
     {
       "name": "USD Coin",
@@ -256,7 +1413,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -264,7 +1421,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 324,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -272,7 +1429,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 280,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -280,7 +1437,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 42161,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -288,7 +1445,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 59140,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -296,7 +1453,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 421613,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -304,7 +1461,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 84531,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Base Coin",
@@ -312,7 +1469,7 @@
       "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": "https://tokens.pancakeswap.finance/images/base/0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/base/0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA.png"
     },
     {
       "name": "USD Coin",
@@ -320,7 +1477,7 @@
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "chainId": 8453,
       "decimals": 6,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -328,7 +1485,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 1101,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -336,7 +1493,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 59144,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -344,7 +1501,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 534351,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -352,7 +1509,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 11155111,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -360,7 +1517,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 84532,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "USD Coin",
@@ -368,7 +1525,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 421614,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "Tether USD",
@@ -376,7 +1533,7 @@
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 1101,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "Test USD Coin",
@@ -384,7 +1541,7 @@
       "symbol": "tUSDC",
       "decimals": 6,
       "chainId": 5,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "Test USD Coin",
@@ -392,7 +1549,7 @@
       "symbol": "tUSDC",
       "decimals": 6,
       "chainId": 1442,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "Tether USD",
@@ -400,7 +1557,7 @@
       "symbol": "USDT",
       "decimals": 6,
       "chainId": 1,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "Wrapped BNB",
@@ -408,7 +1565,7 @@
       "address": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/bnb.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/bnb.png"
     },
     {
       "name": "Wrapped BTC",
@@ -416,7 +1573,7 @@
       "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "chainId": 1,
       "decimals": 8,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/wbtc.png"
     },
     {
       "name": "BUSD Token",
@@ -424,7 +1581,7 @@
       "address": "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/busd.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/busd.png"
     },
     {
       "name": "USD Coin",
@@ -432,7 +1589,7 @@
       "address": "0x64544969ed7EBf5f083679233325356EbE738930",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdc.png"
     },
     {
       "name": "DAI Token",
@@ -440,7 +1597,7 @@
       "address": "0xEC5dCb5Dbf4B114C9d0F65BcCAb49EC54F6A0867",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/dai.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/dai.png"
     },
     {
       "name": "Tether USD",
@@ -448,7 +1605,7 @@
       "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "BTCB Token",
@@ -456,7 +1613,7 @@
       "address": "0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/wbtc.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/wbtc.png"
     },
     {
       "name": "Ethereum Token",
@@ -464,7 +1621,7 @@
       "address": "0xd66c6B4F0be8CE5b39D52E0Fd1344c389929B378",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
     },
     {
       "name": "Wrapped BNB",
@@ -472,7 +1629,7 @@
       "address": "0x4200000000000000000000000000000000000006",
       "chainId": 5611,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/bnb.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/bnb.png"
     },
     {
       "name": "Wrapped BNB",
@@ -480,7 +1637,7 @@
       "address": "0x4200000000000000000000000000000000000006",
       "chainId": 204,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/bnb.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/bnb.png"
     },
     {
       "name": "Ethereum Token",
@@ -488,7 +1645,7 @@
       "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
       "chainId": 204,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png"
     },
     {
       "name": "Tether USD",
@@ -496,7 +1653,7 @@
       "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
       "chainId": 204,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -504,7 +1661,7 @@
       "address": "0xa11B290B038C35711eB309268a2460754f730921",
       "chainId": 5611,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+      "logoURI": "https://assets.betterx.pro/tokens/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
     },
     {
       "name": "Tether USD",
@@ -512,7 +1669,7 @@
       "address": "0xCF712f20c85421d00EAa1B6F6545AaEEb4492B75",
       "chainId": 5611,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/usdt.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -520,7 +1677,7 @@
       "address": "0x2779106e4F4A8A28d77A24c18283651a2AE22D1C",
       "chainId": 204,
       "decimals": 18,
-      "logoURI": "https://tokens.pancakeswap.finance/images/symbol/cake.png"
+      "logoURI": "https://assets.betterx.pro/tokens/images/symbol/cake.png"
     }
   ]
 }

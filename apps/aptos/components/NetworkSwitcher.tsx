@@ -65,7 +65,7 @@ export const NetworkSwitcher = () => {
     <UserMenu
       mr="8px"
       variant="default"
-      avatarSrc="https://tokens.pancakeswap.finance/images/symbol/apt.png"
+      avatarSrc="https://assets.betterx.pro/tokens/images/symbol/apt.png"
       avatarClassName={aptosLogoClass({
         isProduction: isMounted && chain?.id === ChainId.MAINNET,
       })}

@@ -1,10 +1,10 @@
-import { Currency } from "@pancakeswap/sdk";
 import { ChainId } from "@pancakeswap/chains";
+import { useHttpLocations } from "@pancakeswap/hooks";
+import { Currency } from "@pancakeswap/sdk";
+import { BinanceIcon, TokenLogo } from "@pancakeswap/uikit";
 import { useMemo } from "react";
 import { styled } from "styled-components";
 import { space, SpaceProps } from "styled-system";
-import { useHttpLocations } from "@pancakeswap/hooks";
-import { TokenLogo, BinanceIcon } from "@pancakeswap/uikit";
 
 import { getCurrencyLogoUrls } from "./utils";
 

@@ -1,7 +1,7 @@
 import React from "react";
-import { SpinnerProps } from "./types";
 import { Box } from "../Box";
 import { Image } from "../Image";
+import { SpinnerProps } from "./types";
 
 const Spinner: React.FC<React.PropsWithChildren<SpinnerProps>> = ({ size = 128 }) => {
   return (
@@ -9,8 +9,8 @@ const Spinner: React.FC<React.PropsWithChildren<SpinnerProps>> = ({ size = 128 }
       <Image
         width={size}
         height={size * 1.197}
-        src="https://assets.betterx.pro/web/pancake-3d-spinner-v2.gif"
-        alt="pancake-3d-spinner"
+        src="https://assets.betterx.pro/web/betterx-3d-spinner-v2.gif"
+        alt="betterx-3d-spinner"
       />
     </Box>
   );

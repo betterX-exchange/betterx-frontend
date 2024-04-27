@@ -1,23 +1,23 @@
 import { ChainId } from '@pancakeswap/chains'
 
-export const PANCAKE_EXTENDED = 'https://tokens.pancakeswap.finance/pancakeswap-extended.json'
+export const PANCAKE_EXTENDED = 'https://assets.betterx.pro/tokens/pancakeswap-extended.json'
 
-const COINGECKO = 'https://tokens.pancakeswap.finance/coingecko.json'
-const PANCAKE_ETH_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-eth-default.json'
-const PANCAKE_ZKSYNC_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-zksync-default.json'
-const PANCAKE_POLYGON_ZKEVM_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-polygon-zkevm-default.json'
-const PANCAKE_ARB_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-arbitrum-default.json'
-const PANCAKE_LINEA_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-linea-default.json'
-const PANCAKE_BASE_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-base-default.json'
-const PANCAKE_PULSE_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-pulse-default.json'
-const PANCAKE_DEGEN_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-degen-default.json'
-const PANCAKE_OPBNB_DEFAULT = 'https://tokens.pancakeswap.finance/pancakeswap-opbnb-default.json'
+const COINGECKO = 'https://assets.betterx.pro/tokens/coingecko.json'
+const PANCAKE_ETH_DEFAULT = 'https://assets.betterx.pro/tokens/eth-default.json'
+const PANCAKE_ZKSYNC_DEFAULT = 'https://assets.betterx.pro/tokens/zksync-default.json'
+const PANCAKE_POLYGON_ZKEVM_DEFAULT = 'https://assets.betterx.pro/tokens/polygon-zkevm-default.json'
+const PANCAKE_ARB_DEFAULT = 'https://assets.betterx.pro/tokens/arbitrum-default.json'
+const PANCAKE_LINEA_DEFAULT = 'https://assets.betterx.pro/tokens/linea-default.json'
+const PANCAKE_BASE_DEFAULT = 'https://assets.betterx.pro/tokens/base-default.json'
+const PANCAKE_PULSE_DEFAULT = 'https://assets.betterx.pro/tokens/pulse-default.json'
+const PANCAKE_DEGEN_DEFAULT = 'https://assets.betterx.pro/tokens/degen-default.json'
+const PANCAKE_OPBNB_DEFAULT = 'https://assets.betterx.pro/tokens/pancakeswap-opbnb-default.json'
 
-export const PANCAKE_ETH_MM = 'https://tokens.pancakeswap.finance/pancakeswap-eth-mm.json'
-export const PANCAKE_BSC_MM = 'https://tokens.pancakeswap.finance/pancakeswap-bnb-mm.json'
+export const PANCAKE_ETH_MM = 'https://assets.betterx.pro/tokens/eth-mm.json'
+export const PANCAKE_BSC_MM = 'https://assets.betterx.pro/tokens/bnb-mm.json'
 
 const COINGECKO_ETH = 'https://tokens.coingecko.com/uniswap/all.json'
-// export const CMC = 'https://tokens.pancakeswap.finance/cmc.json' // not updated for a while
+// export const CMC = 'https://assets.betterx.pro/tokens/cmc.json' // not updated for a while
 
 const ETH_URLS = [PANCAKE_ETH_DEFAULT, PANCAKE_ETH_MM, COINGECKO_ETH]
 const BSC_URLS = [PANCAKE_EXTENDED, COINGECKO, PANCAKE_BSC_MM]
@@ -28,8 +28,8 @@ const ZKSYNC_URLS = [PANCAKE_ZKSYNC_DEFAULT, 'https://tokens.coingecko.com/zksyn
 const OP_SUPER_CHAIN_URL =
   'https://raw.githubusercontent.com/ethereum-optimism/ethereum-optimism.github.io/master/optimism.tokenlist.json'
 const BASE_URLS = [PANCAKE_BASE_DEFAULT]
-const PULSE_URLS = [PANCAKE_PULSE_DEFAULT]
-const DEGEN_URLS = [PANCAKE_DEGEN_DEFAULT]
+const PULSE_URLS = [PANCAKE_PULSE_DEFAULT, 'https://tokens.coingecko.com/pulsechain/all.json']
+const DEGEN_URLS = [PANCAKE_DEGEN_DEFAULT, 'https://tokens.coingecko.com/degen/all.json']
 const OPBNB_URLS = [PANCAKE_OPBNB_DEFAULT]
 
 // List of official tokens list

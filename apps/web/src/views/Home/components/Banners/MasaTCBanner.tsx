@@ -39,7 +39,7 @@ const bgXsVariant: GraphicDetail = {
 }
 
 const participateLink =
-  'https://pancakeswap.finance/swap?outputCurrency=0x944824290CC12F31ae18Ef51216A223Ba4063092&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapMASA&utm_id=MASATradingCompetition'
+  'https://betterX.pro/swap?outputCurrency=0x944824290CC12F31ae18Ef51216A223Ba4063092&utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=SwapMASA&utm_id=MASATradingCompetition'
 
 const learnMoreLink =
   'https://blog.pancakeswap.finance/articles/join-the-masa-trading-competition-on-pancake-swap-to-win-700-000-masa?utm_source=PCSWebsite&utm_medium=HomePageBanner&utm_campaign=MASATradingCompetition&utm_id=MASATradingCompetition'
