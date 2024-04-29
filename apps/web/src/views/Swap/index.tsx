@@ -17,9 +17,9 @@ import { SwapFeaturesContext } from './SwapFeaturesContext'
 import { V3SwapForm } from './V3Swap'
 import PriceChartContainer from './components/Chart/PriceChartContainer'
 import HotTokenList from './components/HotTokenList'
+import { SwapSelection } from './components/SwapSelection'
 import useWarningImport from './hooks/useWarningImport'
 import { StyledInputCurrencyWrapper, StyledSwapContainer } from './styles'
-import { SwapSelection } from './components/SwapSelection'
 import { SwapType } from './types'
 
 export default function Swap() {
@@ -89,7 +89,7 @@ export default function Swap() {
 
   return (
     <Page removePadding={isChartExpanded} hideFooterOnDesktop={isChartExpanded}>
-      <Flex width={['328px', '100%']} height="100%" justifyContent="center" position="relative" alignItems="flex-start">
+      <Flex width={['360px', '100%']} height="100%" justifyContent="center" position="relative" alignItems="flex-start">
         {isDesktop && isChartSupported && (
           <PriceChartContainer
             inputCurrencyId={inputCurrencyId}

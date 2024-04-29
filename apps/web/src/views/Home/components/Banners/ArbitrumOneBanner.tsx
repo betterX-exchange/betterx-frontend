@@ -113,7 +113,7 @@ const ArbitrumOneBanner = () => {
           <Flex alignItems="center" mb="8px" style={{ gap: isMobile ? 10 : 14 }}>
             <Image
               src={pancakeSwapLogo}
-              alt="pancakeSwapLogo"
+              alt="betterx"
               width={isMobile ? 100 : 132}
               height={isMobile ? 15 : 20}
               unoptimized
@@ -121,7 +121,7 @@ const ArbitrumOneBanner = () => {
             <Divider />
             <Image src={arbLogo} alt="arbLogo" width={isMobile ? 81 : 113} height={isMobile ? 20 : 28} />
           </Flex>
-          <Header>{isMobile ? t('Arbitrum One is LIVE!') : t('PancakeSwap Now Live on Arbitrum One')}</Header>
+          <Header>{isMobile ? t('Arbitrum One is LIVE!') : t('BetterX Swap Now Live on Arbitrum One')}</Header>
           {isDesktop && <StyledSubheading>{t('Swap and Provide Liquidity Now')}</StyledSubheading>}
 
           <Link

@@ -114,7 +114,7 @@ export default function Home() {
   return (
     <Page>
       <Heading scale="lg" mb="16px">
-        {t('PancakeSwap Info & Analytics')}
+        {t('BetterX Swap Info & Analytics')}
       </Heading>
       <ChartCardsContainer>
         <Card>

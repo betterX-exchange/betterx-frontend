@@ -1,5 +1,5 @@
 import { TradeType } from '@pancakeswap/sdk'
-import { SmartRouterTrade, RouteType, SMART_ROUTER_ADDRESSES } from '@pancakeswap/smart-router'
+import { RouteType, SMART_ROUTER_ADDRESSES, SmartRouterTrade } from '@pancakeswap/smart-router'
 
 import { V2_ROUTER_ADDRESS } from 'config/constants/exchange'
 
@@ -9,6 +9,7 @@ export function useRouterAddress(trade?: SmartRouterTrade<TradeType>) {
   }
 
   const { routes, inputAmount } = trade
+
   const {
     currency: { chainId },
   } = inputAmount

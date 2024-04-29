@@ -10,7 +10,6 @@ import CakePrice from "../../components/CakePrice/CakePrice";
 import Footer from "../../components/Footer";
 import LangSelector from "../../components/LangSelector/LangSelector";
 import MenuItems from "../../components/MenuItems/MenuItems";
-import { SubMenuItems } from "../../components/SubMenuItems";
 import { useMatchBreakpoints } from "../../contexts";
 import Logo from "./components/Logo";
 import { MENU_HEIGHT, MOBILE_MENU_HEIGHT, TOP_BANNER_HEIGHT, TOP_BANNER_HEIGHT_MOBILE } from "./config";
@@ -30,12 +29,11 @@ const StyledNav = styled.nav`
   align-items: center;
   width: 100%;
   height: ${MENU_HEIGHT}px;
-  background-color: ${({ theme }) => theme.nav.background};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
+  background-color: ${({ theme }) => theme.nav.background}
   transform: translate3d(0, 0, 0);
 
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 5%;
+  padding-right: 5%;
 `;
 
 const FixedContainer = styled("div").withConfig({
@@ -171,27 +169,8 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
               </Flex>
             </StyledNav>
           </FixedContainer>
-          {subLinks ? (
-            <Flex justifyContent="space-around" overflow="hidden">
-              <SubMenuItems
-                items={subLinksWithoutMobile}
-                mt={`${totalTopMenuHeight + 1}px`}
-                activeItem={activeSubItem}
-              />
 
-              {subLinksMobileOnly && subLinksMobileOnly?.length > 0 && (
-                <SubMenuItems
-                  items={subLinksMobileOnly}
-                  mt={`${totalTopMenuHeight + 1}px`}
-                  activeItem={activeSubItem}
-                  isMobileOnly
-                />
-              )}
-            </Flex>
-          ) : (
-            <div />
-          )}
-          <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
+          <BodyWrapper mt={`${totalTopMenuHeight + 1}px`}>
             <Inner>{children}</Inner>
           </BodyWrapper>
         </Wrapper>

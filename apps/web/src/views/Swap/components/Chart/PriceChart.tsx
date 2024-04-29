@@ -39,7 +39,7 @@ const PriceChart = ({
             </Text>
           )}
           <IconButton variant="text" onClick={onSwitchTokens}>
-            <SyncAltIcon ml="6px" color="primary" />
+            <SyncAltIcon ml="6px" color="#fc72ff" />
           </IconButton>
         </Flex>
         {!isMobile && (

@@ -1,5 +1,5 @@
-import { ChainId, ONE_HUNDRED_PERCENT, Percent, Token, Coin } from '@pancakeswap/aptos-swap-sdk'
-import { APT, CE_USDC, L0_USDC, WH_USDC, CAKE, CE_BNB_MAINNET } from 'config/coins'
+import { ChainId, Coin, ONE_HUNDRED_PERCENT, Percent, Token } from '@pancakeswap/aptos-swap-sdk'
+import { APT, CAKE, CE_BNB_MAINNET, CE_USDC, L0_USDC, WH_USDC } from 'config/coins'
 import { ChainTokenList } from './types'
 
 export const BIG_INT_ZERO = 0n
@@ -78,5 +78,5 @@ export const PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN: Percent = new Percent(1000n, 
 export const BLOCKED_PRICE_IMPACT_NON_EXPERT: Percent = new Percent(1500n, BIPS_BASE) // 15%
 
 // TODO: merge sdk
-export const BASE_FEE = new Percent(25n, BIPS_BASE)
+export const BASE_FEE = new Percent(29n, BIPS_BASE)
 export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)

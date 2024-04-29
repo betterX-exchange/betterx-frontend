@@ -424,7 +424,7 @@ const SwapPage = () => {
   return (
     <>
       <PageMeta title={t('Exchange')} />
-      <Card style={{ width: '328px' }}>
+      <Card style={{ width: '360px' }}>
         <CurrencyInputHeader
           title={
             <Flex width="100%" alignItems="center" justifyContent="center">

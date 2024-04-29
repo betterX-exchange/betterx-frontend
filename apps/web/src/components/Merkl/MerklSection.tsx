@@ -109,7 +109,7 @@ export function MerklSection({
       {isStakedInMCv3 ? (
         <Message variant="warning">
           <MessageText color="textSubtle">
-            {t('To earn rewards on Merkl, unstake this position from PancakeSwap Farms.')}
+            {t('To earn rewards on Merkl, unstake this position from BetterX Swap Farms.')}
             <br />
             {learnMoreComp}
           </MessageText>

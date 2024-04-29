@@ -38,14 +38,14 @@ const Menu = (props) => {
   const [optionsConfirmed] = useUserNotUsCitizenAcknowledgement(IdType.OPTIONS)
 
   const [onPerpConfirmModalPresent] = useModal(
-    <USCitizenConfirmModal title={t('PancakeSwap Perpetuals')} id={IdType.PERPETUALS} href={perpUrl} />,
+    <USCitizenConfirmModal title={t('BetterX Swap Perpetuals')} id={IdType.PERPETUALS} href={perpUrl} />,
     true,
     false,
     'perpConfirmModal',
   )
   const [onOptionsConfirmModalPresent] = useModal(
     <USCitizenConfirmModal
-      title={t('PancakeSwap Options')}
+      title={t('BetterX Swap Options')}
       id={IdType.OPTIONS}
       href={getOptionsUrl()}
       desc={

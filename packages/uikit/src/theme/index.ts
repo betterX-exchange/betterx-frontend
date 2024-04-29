@@ -4,10 +4,10 @@ import { PancakeToggleTheme } from "../components/PancakeToggle/types";
 import { RadioTheme } from "../components/Radio/types";
 import { ToggleTheme } from "../components/Toggle/theme";
 import { TooltipTheme } from "../components/Tooltip/types";
+import { vars } from "../css/vars.css";
 import { NavThemeType } from "../widgets/Menu/theme";
 import { ModalTheme } from "../widgets/Modal/types";
 import { Breakpoints, MediaQueries, ZIndices } from "./types";
-import { vars } from "../css/vars.css";
 
 export interface PancakeTheme {
   siteWidth: number;

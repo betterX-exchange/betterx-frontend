@@ -177,12 +177,15 @@ export const ZERO_PERCENT = new Percent('0')
 export const ONE_HUNDRED_PERCENT = new Percent('1')
 
 export const BASE_FEE = new Percent(25n, BIPS_BASE)
-export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
+export const PULSEX_BASE_FEE = new Percent(29n, BIPS_BASE)
+export const INPUT_FRACTION_AFTER_FEE = (chainId: number) => {
+  return ONE_HUNDRED_PERCENT.subtract(chainId === ChainId.PULSECHAIN ? PULSEX_BASE_FEE : BASE_FEE)
+}
 
 // BNB
-export const DEFAULT_INPUT_CURRENCY = 'BNB'
+export const DEFAULT_INPUT_CURRENCY = 'PLS'
 // CAKE
-export const DEFAULT_OUTPUT_CURRENCY = '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82'
+export const DEFAULT_OUTPUT_CURRENCY = '0x3C3C2BE92AdEa76F7481540256CB7df1803c7074'
 
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'

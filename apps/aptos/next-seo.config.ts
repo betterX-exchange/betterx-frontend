@@ -10,7 +10,7 @@ export const SEO: DefaultSeoProps = {
     site: '@PancakeSwap',
   },
   openGraph: {
-    title: "🥞 PancakeSwap Aptos - Everyone's Favorite DEX",
+    title: "🥞 BetterX Swap Aptos - Everyone's Favorite DEX",
     description: 'Trade, earn, and own crypto on the all-in-one multichain DEX',
     images: [{ url: 'https://aptos.pancakeswap.finance/images/hero.jpeg' }],
   },

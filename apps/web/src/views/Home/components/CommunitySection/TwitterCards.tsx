@@ -72,7 +72,7 @@ export const useTweetsData = () => {
   return useMemo(() => {
     return [
       {
-        tweet: `📢Say hello to PancakeSwap v4
+        tweet: `📢Say hello to BetterX Swap v4
 🪝Hooks
 🔗Custom Pool Types & Donate
 ⛽️Gas Optimization via Singleton & Flash Accounting

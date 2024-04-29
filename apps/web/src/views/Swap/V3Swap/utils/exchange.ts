@@ -58,7 +58,7 @@ export function computeTradePriceBreakdown(trade?: TradeEssentialForPriceBreakdo
     const routeFeePercent = ONE_HUNDRED_PERCENT.subtract(
       pools.reduce<Percent>((currentFee, pool) => {
         if (SmartRouter.isV2Pool(pool)) {
-          return currentFee.multiply(INPUT_FRACTION_AFTER_FEE)
+          return currentFee.multiply(INPUT_FRACTION_AFTER_FEE(pool.reserve0.currency.chainId || 369))
         }
         if (SmartRouter.isStablePool(pool)) {
           return currentFee.multiply(ONE_HUNDRED_PERCENT.subtract(pool.fee))

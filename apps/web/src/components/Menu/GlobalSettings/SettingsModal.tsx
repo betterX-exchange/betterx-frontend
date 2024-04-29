@@ -32,6 +32,7 @@ import { ExpertModal } from '@pancakeswap/widgets-internal'
 import { TOKEN_RISK } from 'components/AccessRisk'
 import AccessRiskTooltips from 'components/AccessRisk/AccessRiskTooltips'
 import { useActiveChainId } from 'hooks/useActiveChainId'
+import { useSpeedQuote } from 'hooks/useSpeedQuote'
 import useTheme from 'hooks/useTheme'
 import { useWebNotifications } from 'hooks/useWebNotifications'
 import { ReactNode, Suspense, lazy, useCallback, useState } from 'react'
@@ -40,7 +41,6 @@ import { useSubgraphHealthIndicatorManager, useUserUsernameVisibility } from 'st
 import { useUserShowTestnet } from 'state/user/hooks/useUserShowTestnet'
 import { useUserTokenRisk } from 'state/user/hooks/useUserTokenRisk'
 import { useMMLinkedPoolByDefault } from 'state/user/mmLinkedPool'
-import { useSpeedQuote } from 'hooks/useSpeedQuote'
 import {
   useOnlyOneAMMSourceEnabled,
   useRoutingSettingChanged,
@@ -377,7 +377,7 @@ function RoutingSettings() {
           <PreTitle mb="24px">{t('Liquidity source')}</PreTitle>
           <Flex justifyContent="space-between" alignItems="center" mb="24px">
             <Flex alignItems="center">
-              <Text>PancakeSwap V3</Text>
+              <Text>BetterX Swap V3</Text>
               <QuestionHelper
                 text={
                   <Flex>
@@ -401,7 +401,7 @@ function RoutingSettings() {
           </Flex>
           <Flex justifyContent="space-between" alignItems="center" mb="24px">
             <Flex alignItems="center">
-              <Text>PancakeSwap V2</Text>
+              <Text>BetterX Swap V2</Text>
               <QuestionHelper
                 text={
                   <Flex flexDirection="column">
@@ -426,7 +426,7 @@ function RoutingSettings() {
           </Flex>
           <Flex justifyContent="space-between" alignItems="center" mb="24px">
             <Flex alignItems="center">
-              <Text>PancakeSwap {t('StableSwap')}</Text>
+              <Text>BetterX Swap {t('StableSwap')}</Text>
               <QuestionHelper
                 text={
                   <Flex flexDirection="column">
@@ -453,7 +453,7 @@ function RoutingSettings() {
           </Flex>
           <Flex justifyContent="space-between" alignItems="center" mb="24px">
             <Flex alignItems="center">
-              <Text>{`PancakeSwap ${t('MM Linked Pool')}`}</Text>
+              <Text>{`BetterX Swap ${t('MM Linked Pool')}`}</Text>
               <QuestionHelper
                 text={
                   <Flex flexDirection="column">

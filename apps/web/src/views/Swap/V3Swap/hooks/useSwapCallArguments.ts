@@ -45,6 +45,8 @@ export function useSwapCallArguments(
   return useMemo(() => {
     if (!trade || !recipient || !account || !chainId) return []
 
+    console.log('trade', trade)
+
     const swapRouterAddress = chainId ? SMART_ROUTER_ADDRESSES[chainId] : undefined
     if (!swapRouterAddress) return []
 

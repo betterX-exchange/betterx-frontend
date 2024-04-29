@@ -1,19 +1,19 @@
+import { useTranslation } from '@pancakeswap/localization'
 import { Currency } from '@pancakeswap/sdk'
-import { BottomDrawer, Flex, Text, StyledLink, useMatchBreakpoints, AutoRow } from '@pancakeswap/uikit'
+import { AutoRow, BottomDrawer, Flex, StyledLink, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
 import { AppBody } from 'components/App'
 import { useCurrency } from 'hooks/Tokens'
 import { useSwapHotTokenDisplay } from 'hooks/useSwapHotTokenDisplay'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useContext, useEffect, useState } from 'react'
 import { Field } from 'state/swap/actions'
 import { useDefaultsFromURLSearch, useSingleTokenSwapInfo, useSwapState } from 'state/swap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import Link from 'next/link'
 import Page from '../../Page'
+import { SwapFeaturesContext } from '../SwapFeaturesContext'
 import PriceChartContainer from '../components/Chart/PriceChartContainer'
 import { SwapSelection } from '../components/SwapSelection'
 import { StyledInputCurrencyWrapper, StyledSwapContainer } from '../styles'
-import { SwapFeaturesContext } from '../SwapFeaturesContext'
 import { SwapType } from '../types'
 import { OrderHistory, TWAPPanel } from './Twap'
 
@@ -61,7 +61,7 @@ export default function TwapAndLimitSwap({ limit }: { limit?: boolean }) {
 
   return (
     <Page removePadding={isChartExpanded} hideFooterOnDesktop={isChartExpanded}>
-      <Flex width={['328px', '100%']} height="100%" justifyContent="center" position="relative" alignItems="flex-start">
+      <Flex width={['360px', '100%']} height="100%" justifyContent="center" position="relative" alignItems="flex-start">
         {isDesktop && (
           <Flex width={isChartExpanded ? '100%' : '50%'} maxWidth="928px" flexDirection="column" style={{ gap: 20 }}>
             {isChartSupported && (

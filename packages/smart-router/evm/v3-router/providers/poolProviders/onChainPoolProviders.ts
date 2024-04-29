@@ -204,10 +204,6 @@ function createOnChainPoolFactory<
     const chainId: ChainId = pairs[0]?.[0]?.chainId
     const client = provider({ chainId })
 
-    // if(client?.chain?.id ===666666666)
-
-    console.log('clientclientclient', client)
-
     if (!chainId || !client) {
       return []
     }

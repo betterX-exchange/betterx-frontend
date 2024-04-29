@@ -159,7 +159,7 @@ const useTradeBlockData = () => {
   const { push } = useRouter()
   const perpetualUrl = useMemo(() => getPerpetualUrl({ chainId, languageCode: code, isDark }), [chainId, code, isDark])
   const [onUSCitizenModalPresent] = useModal(
-    <USCitizenConfirmModal title={t('PancakeSwap Perpetuals')} id={IdType.PERPETUALS} />,
+    <USCitizenConfirmModal title={t('BetterX Swap Perpetuals')} id={IdType.PERPETUALS} />,
     true,
     false,
     'usCitizenConfirmModal',
@@ -256,7 +256,7 @@ const useEarnBlockData = () => {
       },
       {
         title: t('Position Manager'),
-        description: t('Automate your PancakeSwap v3 liquidity'),
+        description: t('Automate your BetterX Swap v3 liquidity'),
         ctaTitle: t('Stake Now'),
         image: `${ASSET_CDN}/web/landing/earn-pm.png`,
         defaultImage: `${ASSET_CDN}/web/landing/earn-pm-purple.png`,
